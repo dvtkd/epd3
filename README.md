@@ -1,16 +1,9 @@
-# Using latex with Binder
+# Python notebook files supporting course EPD
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dvtkd/epd3/master?filepath=CoupledModeTheory.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dvtkd/epd3/master)
 
-repository connected to course EPD
+Repository connected to course EPD
 
 
-This repository demonstrates how to install latex alongside matplotlib
-for Binder. This repository also makes use of [JupyterLab Latex](https://github.com/jupyterlab/jupyterlab-latex) to render latex files in Jupyter lab. This requires a few different build components:
-
-* `apt.txt` for apt-installing the latex components
-* `environment.yml` for installing the python dependencies
-* `postBuild` for forcing matplotlib to build the font cache and for installing JupyterLab Latex.
-
-Thanks to [m-weigand](https://github.com/m-weigand) for giving
+Thanks also to [m-weigand](https://github.com/m-weigand) for giving
 [inspiration for this repo](https://github.com/m-weigand/binder-example-latex-mpl/blob/master/index.ipynb)!
