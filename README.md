@@ -2,6 +2,9 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dvtkd/epd3/master?filepath=CoupledModeTheory.ipynb)
 
+repository connected to course EPD
+
+
 This repository demonstrates how to install latex alongside matplotlib
 for Binder. This repository also makes use of [JupyterLab Latex](https://github.com/jupyterlab/jupyterlab-latex) to render latex files in Jupyter lab. This requires a few different build components:
 
